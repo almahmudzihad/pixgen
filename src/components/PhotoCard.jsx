@@ -37,7 +37,7 @@ const PhotoCard = ({photo}) => {
             </div>
            </div>
 
-     <Link href={`/photo/${photo.id}`}>      <Button variant="outline" className={'w-full'}>View</Button></Link>
+     <Link href={`/all-photos/${photo.id}`}>      <Button variant="outline" className={'w-full'}>View</Button></Link>
             
         </Card>
     );
