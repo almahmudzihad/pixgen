@@ -30,9 +30,11 @@ export default function SignUpPage() {
       image: imgurl,
       
     });
-    console.log({data, error});
+    
     if (!error) {
-      router.push("/signin");
+      router.push("/");
+    }else{
+      alert(error.message)
     }
   };
 

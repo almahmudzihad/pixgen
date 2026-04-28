@@ -11,6 +11,9 @@ import {
   Label,
   TextField,
 } from "@heroui/react";
+import { waitForSegmentCacheEntry } from "next/dist/client/components/segment-cache/cache";
+import Link from "next/link";
+import { GrGoogle } from "react-icons/gr";
 
 export default function SignInPage() {
   const onSubmit = async (e) => {
@@ -27,12 +30,18 @@ export default function SignInPage() {
     });
     console.log({data, error});
   };
+  const handelGoogleSignIn = async () => {
+     await authClient.signIn.social({
+      provider: "google",
+    });
+    
+  };
 
   return (
     <Card className="border mx-auto w-125 py-10 mt-5">
       <h1 className="text-center text-2xl font-bold">Sign in</h1>
 
-      <Form className="flex w-96 mx-auto flex-col gap-4" onSubmit={onSubmit}>
+      <Form className="flex max-w-96 mx-auto flex-col gap-4" onSubmit={onSubmit}>
         
 
         
@@ -86,11 +95,13 @@ export default function SignInPage() {
             <Check />
             Submit
           </Button>
-          <Button type="reset" variant="secondary">
-            Reset
-          </Button>
+          
+          
         </div>
       </Form>
+      <Description className="text-center mt-2">For register to <Link href="/signup" className="text-blue-500">Sign up</Link></Description>
+      <p className="text-center p-1">or</p>
+      <Button className='max-w-96 mx-auto' onClick={handelGoogleSignIn}><GrGoogle />Sign in with Google</Button>
     </Card>
   );
 }
