@@ -195,5 +195,70 @@
     "downloads": 96,
     "createdAt": "2026-04-26T09:45:00Z",
     "tags": ["apocalyptic", "wasteland", "survivor", "scifi"]
+  },
+  {
+    "id": 16,
+    "title": "Cyberpunk City Nights",
+    "imageUrl": "https://images.unsplash.com/photo-1508057198894-247b23fe5ade",
+    "prompt": "Futuristic cyberpunk city at night, neon lights, rain reflections",
+    "category": "Sci-Fi",
+    "model": "SDXL",
+    "resolution": "1280x720",
+    "likes": 420,
+    "downloads": 150,
+    "createdAt": "2026-04-27T10:20:00Z",
+    "tags": ["cyberpunk", "city", "neon", "future"]
+  },
+  {
+    "id": 17,
+    "title": "Dreamy Sunset Beach",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    "prompt": "A calm beach during sunset, soft pastel sky",
+    "category": "Nature",
+    "model": "DALL·E 3",
+    "resolution": "1024x1024",
+    "likes": 210,
+    "downloads": 80,
+    "createdAt": "2026-04-27T12:00:00Z",
+    "tags": ["beach", "sunset", "nature"]
+  },
+  {
+    "id": 18,
+    "title": "Fantasy Dragon",
+    "imageUrl": "https://images.unsplash.com/photo-1519681393784-d120267933ba",
+    "prompt": "Fantasy dragon concept art, cinematic lighting",
+    "category": "Fantasy",
+    "model": "Midjourney",
+    "resolution": "1024x1024",
+    "likes": 512,
+    "downloads": 200,
+    "createdAt": "2026-04-27T14:30:00Z",
+    "tags": ["dragon", "fantasy"]
+  },
+  {
+    "id": 19,
+    "title": "Minimal Workspace",
+    "imageUrl": "https://images.unsplash.com/photo-1492724441997-5dc865305da7",
+    "prompt": "Minimal desk setup with laptop and plant",
+    "category": "Minimal",
+    "model": "SDXL",
+    "resolution": "1024x1024",
+    "likes": 134,
+    "downloads": 45,
+    "createdAt": "2026-04-27T16:10:00Z",
+    "tags": ["minimal", "desk"]
+  },
+  {
+    "id": 20,
+    "title": "Astronaut Space",
+    "imageUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa",
+    "prompt": "Astronaut floating in space with stars",
+    "category": "Sci-Fi",
+    "model": "DALL·E 3",
+    "resolution": "1280x720",
+    "likes": 380,
+    "downloads": 120,
+    "createdAt": "2026-04-27T18:00:00Z",
+    "tags": ["space", "astronaut"]
   }
 ]

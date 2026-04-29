@@ -34,7 +34,7 @@ const Navbar = () => {
         <ul className="hidden md:flex items-center gap-5 text-sm">
           <li><Link href="/">Home</Link></li>
           <li><Link href="/all-photos">All Photos</Link></li>
-          <li><Link href="/pricing">Pricing</Link></li>
+          
           <li><Link href="/profile">Profile</Link></li>
         </ul>
 
@@ -73,7 +73,7 @@ const Navbar = () => {
         <div className="md:hidden flex flex-col gap-4 pb-4">
           <Link href="/">Home</Link>
           <Link href="/all-photos">All Photos</Link>
-          <Link href="/pricing">Pricing</Link>
+          
           <Link href="/profile">Profile</Link>
 
           {!user ? (
