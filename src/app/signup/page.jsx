@@ -49,7 +49,7 @@ export default function SignUpPage() {
           <FieldError />
         </TextField>
 
-        <TextField isRequired name="image" type="text">
+        <TextField isRequired name="image" type="url">
           <Label>Image URL</Label>
           <Input placeholder="Image URL" />
           <FieldError />
