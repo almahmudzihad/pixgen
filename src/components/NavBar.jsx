@@ -61,7 +61,8 @@ const Navbar = () => {
         {/* Mobile Hamburger */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden text-xl"
+          className="md:hidden text-xl cursor-pointer p-2"
+          
         >
           ☰
         </button>
